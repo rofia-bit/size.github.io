@@ -6,6 +6,13 @@ body{
     padding: 0;
 }
 
+@media (max-width: 600px) {
+  .container {
+    /* Adjustments for small screens */
+    padding: 10px;
+    font-size: 14px;
+  }
+}
 .container {
     max-width: 400px;
     margin: auto;
